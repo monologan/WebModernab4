@@ -103,3 +103,8 @@ bg-grey {
 button:focus {
   outline: none;
 }
+
+.member-info {
+  bottom: 3rem;
+  left: 3rem;
+}
