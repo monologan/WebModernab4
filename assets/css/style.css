@@ -1,24 +1,48 @@
 :root {
-    --dark: #0a0a0a;
-    --grey: #f6f6f6;
-    --light: #ffffff;
-
+  --dark: #0a0a0a;
+  --grey: #f6f6f6;
+  --light: #ffffff;
 }
 
 body {
-    font-family: 'Spartan', sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-    background-color: var(--grey);
+  font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: var(--grey);
 }
 
-.navbar{
-    min-height: 15rem;
-   
+.navbar {
+  min-height: 15rem;
 }
 
-bg-light { background-color: var(--light) !important;}
-bg-dark { background-color: var(--dark) !important;}
-bg-grey { background-color: var(--grey) !important;}
+bg-light {
+  background-color: var(--light) !important;
+}
+bg-dark {
+  background-color: var(--dark) !important;
+}
+bg-grey {
+  background-color: var(--grey) !important;
+}
 
-.text-dark { color: var(--dark) !important;}
+.text-dark {
+  color: var(--dark) !important;
+}
+
+.py-6 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  
+}
+
+.btn {
+    padding: .75rem 1rem;
+    border-radius: .1rem;
+    font-weight: 700;
+
+}
+
+.btn-dark {background-color: var(--dark);}
+
+.btn-outline-dark:hover {background-color: var(--dark);}
+
