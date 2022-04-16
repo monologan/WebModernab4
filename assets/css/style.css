@@ -104,6 +104,13 @@ button:focus {
   outline: none;
 }
 
+.badge { padding: .5rem;}
+
+.badge-secondary{
+  background-color: var(--grey);
+  color: var(--dark);
+}
+
 .member-info {
   bottom: 3rem;
   left: 3rem;
