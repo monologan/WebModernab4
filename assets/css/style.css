@@ -115,3 +115,7 @@ button:focus {
   bottom: 3rem;
   left: 3rem;
 }
+
+.user {
+  max-width: 50px;
+}
